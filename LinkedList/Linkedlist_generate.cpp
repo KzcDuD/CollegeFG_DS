@@ -4,9 +4,9 @@ using namespace std;
 
 // Node class for holding data and a pointer to the next node
 class Node {
-public:
-    int data;
-    Node* next;
+    public:
+        int data;
+        Node* next;
 
     Node(int data) {
         this->data = data;
@@ -16,7 +16,7 @@ public:
 
 // LinkedList class for managing the list
 class LinkedList {
-public:
+    public:
     Node* head;
     int size;
 
